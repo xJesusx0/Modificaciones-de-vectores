@@ -29,4 +29,3 @@ miVector = agregar(1, 4.0, miVector); // Agrega el valor 4.0 en el índice 1
 En este ejemplo, `miVector` se actualizará a `{1.0, 4.0, 3.0}`.
 ```
 
-Este `readme.md` proporciona información básica sobre la funcionalidad y el uso de los métodos. Puedes ajustarlo según tus necesidades y agregar más detalles si es necesario.
