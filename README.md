@@ -16,7 +16,7 @@ Este método permite agregar un dato específico en un índice dado de un vector
 ### Uso:
 
 ```java
-public static double[] agregar(int indice, double dato, double[] vector)
+agregar(int indice, double dato, double[] vector)
 ```
 
 Ejemplo de uso:
