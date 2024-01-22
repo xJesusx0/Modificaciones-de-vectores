@@ -6,7 +6,7 @@ Este método imprime los elementos de un vector dado en la consola. Toma un arre
 ### Uso:
 
 ```java
-public static void imprimirVector(double[] vector)
+imprimirVector(double[] vector)
 ```
 
 ## agregar
