@@ -9,15 +9,19 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 public class Metodos {
-    public static String imprimirVector(double[] vector){
+    public static void imprimirVector(double[] vector){
         String resultado = "";
         for(int i = 0 ; i < vector.length ; i++){
             resultado += (vector[i] + "\t");
         }
-        return resultado;
+        System.out.println( resultado);
     }
     
     public static double[] agregar(int indice,double dato,double[] vector){
+        vector[indice] = dato;
+        return vector;
+    }
+    public static double[] insertar(int indice,double dato,double[] vector){
         double nuevoVector[] = new double[vector.length];
         int contador = 0;
         for(int i = 0 ; i < vector.length ; i++){
@@ -102,10 +106,12 @@ public class Metodos {
         }
     }
     public static void menu(){
+        System.out.println("-------------------------");
         System.out.println("0 - Salir");
         System.out.println("1 - Mostrar vector");
         System.out.println("2 - Eliminar un elemento");
         System.out.println("3 - Agregar un elemento");
-        System.out.println("4 - Insertar un elemento");
+        System.out.println("-------------------------");
+
     }
 }
