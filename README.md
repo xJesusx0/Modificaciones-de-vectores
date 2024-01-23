@@ -37,7 +37,11 @@ Este método imprime un mensaje de error en la consola. Toma como entrada el men
 ```java
 mostrarError(String mensaje);
 ```
+Ejemplo de uso:
 
+```java
+mostrarError("dato invalido");
+```
 ## Métodos de Entrada de Usuario
 
 ### input
@@ -49,7 +53,11 @@ Este método solicita al usuario una entrada de texto y devuelve la entrada como
 ```java
 String dato = input(String mensaje);
 ```
+Ejemplo de uso:
 
+```java
+String dato = input("Ingrese un dato");
+```
 ### inputInt
 
 Este método solicita al usuario una entrada numérica entera y la devuelve como un valor entero.
@@ -59,7 +67,11 @@ Este método solicita al usuario una entrada numérica entera y la devuelve como
 ```java
 int numeroEntero = inputInt(String mensaje);
 ```
+Ejemplo de uso:
 
+```java
+int numeroEntero = inputInt("Ingrese un numero entero");
+```
 ### inputDouble
 
 Este método solicita al usuario una entrada numérica decimal y la devuelve como un valor de doble precisión.
