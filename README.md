@@ -6,7 +6,7 @@ Este método imprime los elementos de un vector dado en la consola. Toma un arre
 ### Uso:
 
 ```java
-imprimirVector(double[] vector)
+imprimirVector(double[] vector);
 ```
 
 ## agregar
@@ -16,7 +16,7 @@ Este método permite agregar un dato específico en un índice dado de un vector
 ### Uso:
 
 ```java
-agregar(int indice, double dato, double[] vector)
+agregar(int indice, double dato, double[] vector);
 ```
 
 Ejemplo de uso:
@@ -35,7 +35,7 @@ Este método imprime un mensaje de error en la consola. Toma como entrada el men
 ### Uso:
 
 ```java
-mostrarError(String mensaje)
+mostrarError(String mensaje);
 ```
 
 ## Métodos de Entrada de Usuario
@@ -47,7 +47,7 @@ Este método solicita al usuario una entrada de texto y devuelve la entrada como
 ### Uso:
 
 ```java
-String dato = input(String mensaje)
+String dato = input(String mensaje);
 ```
 
 ### inputInt
@@ -57,7 +57,7 @@ Este método solicita al usuario una entrada numérica entera y la devuelve como
 ### Uso:
 
 ```java
-int numeroEntero = inputInt(String mensaje)
+int numeroEntero = inputInt(String mensaje);
 ```
 
 ### inputDouble
@@ -67,7 +67,7 @@ Este método solicita al usuario una entrada numérica decimal y la devuelve com
 ### Uso:
 
 ```java
-double numeroDecimal = inputDouble(String mensaje)
+double numeroDecimal = inputDouble(String mensaje);
 ```
 
 ### inputByte
@@ -77,7 +77,7 @@ Este método solicita al usuario una entrada numérica de tipo byte y la devuelv
 ### Uso:
 
 ```java
-byte numeroByte = inputByte(String mensaje)
+byte numeroByte = inputByte(String mensaje);
 ```
 
 ## menu
@@ -87,7 +87,7 @@ Este método imprime un menú simple en la consola.
 ### Uso:
 
 ```java
-menu()
+menu();
 ```
 
 Ejemplo de uso:
