@@ -27,7 +27,6 @@ miVector = agregar(1, 4.0, miVector); // Agrega el valor 4.0 en el índice 1
 ```
 
 En este ejemplo, `miVector` se actualizará a `{1.0, 4.0, 3.0}`.
-```
 
 ## mostrarError
 
